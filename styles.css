@@ -1,0 +1,111 @@
+:root {
+        --lightcyan: #6FF;
+        --cyan: #099;
+        --col-1: #7F7F7F;
+        --col-2: #ACAFBE;
+        --col-3: #E5E4EA;
+        --fondo-1: #181820;
+        --fondo-2: #1E202C;
+        --fondo-3: #292B37;
+        --fondo-4: #4C5165;
+      }
+      
+      body {
+        margin: 0;
+      }
+
+      p {
+        color: #001
+        
+      }
+      a {
+        font-weight: 300;
+        text-decoration: none;
+      }
+      #navder {
+        display: flex;
+        justify-content: right;
+        margin-left: auto;
+      }
+      header-con {
+        display: flex;
+        align-items: center;
+        background-color: var(--fondo-2);
+        padding: 5px 10px;
+        color: white;
+
+        & h2 a {
+          all: unset;
+        }
+      }
+      .a46cje7 {
+        border: 1px solid red;
+      }
+      
+      main-con {
+        padding: 10px;
+      }
+      .concierto {
+        box-shadow: 10px 10px 59px 5px rgba(0, 0, 0, 0.31);
+        padding: 15px;
+        margin: 20px 10px;
+        border-radius: 15px;
+        font-size: 0.8em;
+
+        & h3 {
+          margin: 0;
+        }
+
+        & * {
+          margin: 0;
+        }
+      }
+      
+      .boldie {
+        font-weight: 500;
+        color: white;
+      }
+      .regularie {
+        font-weight: 500;
+        color: var(--lightcyan);
+      }
+      .btw {
+        color: var(--col-1);
+      }
+      
+      .fechas {
+        display: flex;
+        align-items: center;
+        padding: 0;
+      }
+      .envivo {
+        color: black;
+      }
+      #vivo {
+        animation: pulsar 1s ease-in-out infinite;
+        display: inline-block;
+      }
+        
+      @keyframes pulsar {
+        0% { transform: scale(1.0); }
+        50% { transform: scale(0.5); }
+        100% { transform: scale(1.0); }
+      }
+      .entradas {
+        text-align: center;
+      }
+      .estadoactivo {
+        margin: 20px 0;
+      }
+      footer {
+        font-size: 0.8em;
+        text-align: center;
+        background-color: var(--fondo-2);
+        padding: 20px;
+        color: #ACAFBE;
+
+        & p {
+          margin: 3.2em auto;
+          color: var(--col-2);
+        }
+      }
