@@ -1,1 +1,1 @@
-# material gráfico para BierFest Oktober Santiago 2026
+# material gráfico BierFest Oktober Santiago 2026
