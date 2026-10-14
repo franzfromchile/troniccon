@@ -1,1 +1,1 @@
-# gráficos bierfest oktober 2026
+# gráficos BierFest Oktober Santiago 2026
